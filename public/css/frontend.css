@@ -1,0 +1,88 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    margin:0px;
+    overflow-x:hidden;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:20px;
+}
+
+.screen_one {
+    height: 100vh;
+    width: 100vw;
+    position: relative!important;
+    background-size: cover;
+    background-position:50%,50%;
+    /* background-image: url('SGBackground.jpg'); */
+}
+
+.screen_two {
+    
+    height: 100vh;
+    width: 100vw;
+    position: relative!important;
+    top: 0px;
+    background-size: cover;
+    background-position:50%,50%;
+}
+
+.overlay{
+    position: relative;
+    height: 100%;
+    width:100%;
+    background:rgba(0,0,0,0);
+    color: #ffffff;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+/* .containerVideo {
+ 
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        padding: 0;
+        margin: 0;
+        left: 0px;
+        top: 0px;
+        overflow: hidden;
+
+} */
+
+
+/*
+
+#videoBG {
+     position:fixed;
+    z-index: -1;
+     width:100%;
+     height:auto;
+}
+@media (min-aspect-ratio: 16/9) {
+    #videoBG {
+        width:100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    #videoBG { 
+        width:auto;
+        height: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    #videoBG {
+        display: none;
+    }
+    body {
+        background-image: url('public/storage/frontend_backgrounds/SGBackground.jpg');
+        background-size: cover;
+    }
+} */
+
